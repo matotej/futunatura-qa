@@ -10,12 +10,12 @@
 3. On root folder create a `.env` file - use `env.template`
 3. Store login credentials to `.env` files.
 
-To execute tests run `npx cypress open` and run tests from UI.
-OR
-Run from CLI
-`npm run e2e` - headless in Electron
-`npm run e2e-chrome` - headless in Chrome
-`npm run e2e-chrome-headed` - headed in Chrome
+To execute tests run `npx cypress open` and run tests from UI.  
+OR  
+Run from CLI  
+`npm run e2e` - headless in Electron  
+`npm run e2e-chrome` - headless in Chrome  
+`npm run e2e-chrome-headed` - headed in Chrome  
 `npm run run-and-generate-reports` - headles in Electron with generated report in `mochawesome-report`
 
 
