@@ -8,7 +8,8 @@
 
 2. Open browser and navigate to `https://www.futunatura.si/` and register a new user.
 3. On root folder create a `.env` file - use `env.template`
-3. Store login credentials to `.env` files.
+3. Store login credentials to `.env` files - private information.
+4. Set correct data in ./cypress/fixtures/user.json - public information.
 
 To execute tests run `npx cypress open` and run tests from UI.  
 OR  
