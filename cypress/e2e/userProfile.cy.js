@@ -17,7 +17,7 @@ beforeEach(function() {
     });
 });
 
-describe.skip('Profile page', function() {
+describe('Profile page', function() {
     it('Should unsuccessfully update password - empty passwords', function() {
         const userProfile = new UserProfilePage();
 
@@ -57,7 +57,7 @@ describe.skip('Profile page', function() {
             userProfile.goToMenu('Odjava');
         });
 
-        it('Should unsuccessfully update password', function() {
+        it('Should successfully update password', function() {
             const userProfile = new UserProfilePage();
 
             userProfile.goToMenu('Sprememba gesla');

@@ -13,7 +13,7 @@ beforeEach(function() {
 })
 
 describe('Login page', function() {
-    it.skip('Should login to Fotonatura page', function() {
+    it('Should login to Fotonatura page', function() {
         const login = new LoginPage();
         const userProfile = new userProfilePage();
 
