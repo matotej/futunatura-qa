@@ -1,0 +1,5 @@
+{
+    "name": "Cypress Test",
+    "wrongEmail": "test.mail@mailtest.com",
+    "wrongPassword": "wrongPass"
+}
